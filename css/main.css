@@ -84,7 +84,13 @@ body {
   padding: 70px 7px;
 }
 
-#services.flex-container{
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+#services.flex-container,
+#work.flex-container{
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
@@ -93,6 +99,20 @@ body {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
+/*----------------Work-----------------*/
+
+#work{
+	text-align: center;
+	padding: 70px 7px;
+}
+
+#work h4,
+#services h4{ 
+	padding:0 90px 20px 90px;
+}
+
+
 
 /*----------------Footer-----------------*/
 footer{
