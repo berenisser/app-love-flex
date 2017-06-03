@@ -93,3 +93,13 @@ body {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
+/*----------------Footer-----------------*/
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 15px;
+  margin: 0;
+}
