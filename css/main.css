@@ -123,3 +123,40 @@ footer{
   padding-top: 15px;
   margin: 0;
 }
+
+
+/*-----------Modal------------------*/
+.box-services-modal{
+  background-color: rgba(129,176,69,0.9);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.box-services-modal .close img{
+  width: 60px;
+}
+
+.hide{
+  display: none;
+}
+
+.box-services, .imagenes{
+  cursor: pointer;
+}
